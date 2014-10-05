@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2014, 11:02:13 AM
+    Author     : marlongeraldorodriguesviana
+*/
+
+  html, body {
+    height: 100%;
+    font-family: sans-serif;
+  }
+  
+  .login_container {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  
+  .login_container2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+  }
+  
+  .center_table {
+    margin: 0 auto;
+  }
+  
+  .center_table_login {
+    margin: 0 auto;
+    border: 1px solid black; 
+    border-width: 1px 0 1px 0;
+  }
+  
+  .title_image {
+      height: 250px; 
+      width: 350px; 
+      float: left; 
+      margin-top: -115px;
+      margin-left: -20px;
+  }
+  
+  .title_text {
+      float:right; 
+      margin-top:-55px; 
+      color:white;
+      margin-right: 20px;
+  }
+  
+  .text_footer {
+      text-align:center;
+      font-size:11px;
+      color:gray;
+      padding-bottom: 30px;
+  }
+  
+  .container {
+    width: 500px;
+    max-height: 500px;
+    margin: 10px;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 7px #292929;
+    -moz-box-shadow: 0px 2px 7px #292929;
+    -webkit-box-shadow: 0px 2px 7px #292929;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+
+  .menu_btn {
+      font-size: 12px;
+      height: 64px !important;
+      width: 64px !important;
+  }
+  
+  .manager_btn {
+      font-size: 12px;
+      height: 85px !important;
+      width: 85px !important;
+  }
+  
+  .ui-icon-custom_logout { 
+    background-image: url(../images/logout_placid.png) !important; 
+    height: 72px !important;
+    width: 72px !important;
+    margin-top: -32px !important;
+    margin-left: -32px !important;
+  }
+  
+  .ui-icon-custom_diglist { 
+    background-image: url(../images/list_yellow_placid.png) !important; 
+    height: 72px !important;
+    width: 72px !important;
+    margin-top: -32px !important;
+    margin-left: -32px !important;
+  }
+  
+  .ui-icon-custom_admin { 
+    background-image: url(../images/admin_placid.png) !important; 
+    height: 72px !important;
+    width: 72px !important;
+    margin-top: -32px !important;
+    margin-left: -32px !important;
+  }  
+  
+  .ui-icon-custom_map { 
+    background-image: url(../images/map_rec_placid.png) !important; 
+    height: 72px !important;
+    width: 72px !important;
+    margin-top: -32px !important;
+    margin-left: -32px !important;
+  } 
+  
+  .ui-icon-custom_user { 
+    background-image: url(../images/user_small.png) !important; 
+    height: 80px !important;
+    width: 80px !important;
+    margin-top: -39px !important;
+    margin-left: -39px !important;
+  } 
+  
+  .ui-icon-custom_cannon { 
+    background-image: url(../images/cannon_small.png) !important; 
+    height: 80px !important;
+    width: 80px !important;
+    margin-top: -45px !important;
+    margin-left: -39px !important;
+  } 
+
+  .menu_labels{
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1000;
+    font-size: 12px;
+    //color:gray;
+    text-align: center;
+    
+  }
+  
+  #admin_head{
+      position: relative;
+      float: right
+  }
+  
+  .admin_head_child{
+      display: inline-block;
+  }
+ 
+  .body_block{
+      border: 1px solid black; 
+      width:95%; 
+      height:600px; 
+      overflow: visible !important;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 35px;
+  }
+
+  .body_block_small{
+      border: 1px solid black; 
+      width:60%; 
+      height:430px; 
+      overflow: visible !important;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 35px;
+  }
+  
+  table.dataTable thead th div.DataTables_sort_wrapper {
+      position: relative;
+      padding-right: 20px;
+  }
+
+  table.dataTable thead th div.DataTables_sort_wrapper span {
+      position: absolute;
+      top: 50%;
+      margin-top: -8px;
+      right: 0;
+  }
+  
+  .dataTables_paginate {
+      margin-top: -4px;
+  }
+  
+  .delete_user {
+      width: 30px !important;
+      height: 30px !important;
+  }
+  
+  .edit_user {
+      width: 30px !important;
+      height: 30px !important;
+  }
+  
+  .delete_dig {
+      width: 30px !important;
+      height: 30px !important;
+  }
+  
+  .edit_dig {
+      width: 30px !important;
+      height: 30px !important;
+  }
